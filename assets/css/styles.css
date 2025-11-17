@@ -405,6 +405,12 @@ img {
   transform: scale(1.1);
 }
 
+#modal-text {
+    margin-top: 1rem;     /* atau 16px */
+    line-height: 1.4;
+    text-align: center;   /* biar rapi */
+}
+
 /* ===== CONTACT =====*/
 .contact__input {
   width: 100%;
