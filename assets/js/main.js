@@ -63,15 +63,15 @@ sr.reveal('.awards__container', {interval: 200});
 document.addEventListener("DOMContentLoaded", () => {
 
     const descriptions = {
-        "project1.png": "Deskripsi untuk project 1.",
-        "project2.png": "Deskripsi untuk project 2.",
-        "project3.png": "Deskripsi untuk project 3.",
-        "project4.png": "Deskripsi untuk project 4.",
-        "project5.png": "Deskripsi untuk project 5.",
-        "project6.png": "Deskripsi untuk project 6.",
-        "project7.png": "Deskripsi untuk project 7.",
-        "project8.png": "Deskripsi untuk project 8.",
-        "project9.png": "Deskripsi untuk project 9."
+        "project1.png": "VANALIKA 1.0: Photovoltaic-Based Energy Harvesting using Sunflower Solar Tracker Optimization (bit.ly/VANALIKA)",
+        "project2.png": "Star-Delta Starter Electrical Motor Starter Panel",
+        "project3.png": "Buzz-Convt 1.0: 12V - 24V Boost Converter for DC Voltage Step-Up",
+        "project4.png": "Rajasaka 2.0: IR Sensor-Based Line Follower Robot",
+        "project5.png": "Temperature Controller using LM35 with Arduino-Based PID Controller Implemented using MATLAB",
+        "project6.png": "2-Stages Op-Amp Analog Integrated Circuit Designed with Cadence (GPDK 045nm)",
+        "project7.png": "2.4 GHz Radio-Frequency Receiver Analog Integrated Circuit Designed with Cadence (GPDK 045nm)",
+        "project8.png": "Variational Autoencoder Accelerator Integrated Circuit Design Implemented on FPGA Xilinx Kria KV260 for DNN-based Image Compression",
+        "project9.png": "ANN Hardware Accelerator Digital IC Implemented on FPGA Xilinx Kria KV260 (Case Study: Battery Condition Estimation)"
     };
 
     const items = document.querySelectorAll(".project__img");
@@ -133,4 +133,5 @@ ${name}`;
     // Buat mailto link
     window.location.href = `mailto:raphael03samosir@gmail.com?subject=New Contact Form Message&body=${encodedBody}`;
 });
+
 
